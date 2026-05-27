@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Noir & Or",
+  "description": "An exquisite luxury fashion atelier, editorial lookbook, custom moodboard developer, and AI bespoke design stylist to craft premium noir and champagne gold couture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

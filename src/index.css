@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fbf7ef;
+  --color-gold-100: #f4eade;
+  --color-gold-200: #ebd6be;
+  --color-gold-300: #debb97;
+  --color-gold-400: #d09d6f;
+  --color-gold-500: #c5a880; /* Perfect Champagne Gold */
+  --color-gold-600: #a7875b;
+  --color-gold-700: #8b6842;
+  --color-gold-800: #715032;
+  --color-gold-900: #5d3f28;
+}
+
+/* Custom editorial scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a880;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+/* Smooth scroll behavior & optimal body overrides */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Luxurious Shimmer effect */
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-text-shimmer {
+  background: linear-gradient(90deg, #ffffff 0%, #c5a880 25%, #fff2dd 50%, #c5a880 75%, #ffffff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldShimmer 8s linear infinite;
+}
+
+/* Gold glow button and hover styles */
+.luxury-gold-glow {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-gold-glow:hover {
+  border-color: rgba(197, 168, 128, 0.75);
+  box-shadow: 0 0 20px rgba(197, 168, 128, 0.15);
+  text-shadow: 0 0 8px rgba(197, 168, 128, 0.2);
+}
+
+/* Luxury card reflection sweep effect */
+.atelier-reflect {
+  position: relative;
+  overflow: hidden;
+}
+
+.atelier-reflect::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 30%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(197, 168, 128, 0.08) 30%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(197, 168, 128, 0.08) 70%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  transition: all 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.atelier-reflect:hover::after {
+  left: 140%;
+  opacity: 1;
+}
+
