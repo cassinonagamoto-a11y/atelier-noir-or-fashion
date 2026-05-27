@@ -82,23 +82,23 @@ export const BESPOKE_SERVICES: BespokeService[] = [
 // Presets for the Interactive Moodboard Creator Canvas
 export const MOODBOARD_PRESETS = {
   fabrics: [
-    { id: 'pres-f1', name: 'Noir Silk Velvet', color: '#111011', type: 'fabric', sampleName: 'SV-NOIR', src: '/src/assets/images/luxury_fabric_1779670896779.png' },
-    { id: 'pres-f2', name: 'Champagne Satin', color: '#eae1cc', type: 'fabric', sampleName: 'SA-GOLD', src: '/src/assets/images/champagne_satin_1779672903615.png' },
-    { id: 'pres-f3', name: 'Midnight Brocade', color: '#1c1c1a', type: 'fabric', sampleName: 'BC-DARK', src: '/src/assets/images/boutique_cabinet_1779670935525.png' },
-    { id: 'pres-f4', name: 'Gilded Bouclé', color: '#d8c4ab', type: 'fabric', sampleName: 'BQ-GILD', src: '/src/assets/images/tailor_blueprint_1779670914398.png' },
-    { id: 'pres-f5', name: 'Raw Obsidian Leather', color: '#070707', type: 'fabric', sampleName: 'LT-OBSD', src: '/src/assets/images/atelier_facade_1779672135692.png' }
+    { id: 'pres-f1', name: 'Noir Silk Velvet', color: '#111011', type: 'fabric', sampleName: 'SV-NOIR', src: '/images/fabric.png' },
+    { id: 'pres-f2', name: 'Champagne Satin', color: '#eae1cc', type: 'fabric', sampleName: 'SA-GOLD', src: '/images/satin.png' },
+    { id: 'pres-f3', name: 'Midnight Brocade', color: '#1c1c1a', type: 'fabric', sampleName: 'BC-DARK', src: '/images/cabinet.png' },
+    { id: 'pres-f4', name: 'Gilded Bouclé', color: '#d8c4ab', type: 'fabric', sampleName: 'BQ-GILD', src: '/images/blueprint.png' },
+    { id: 'pres-f5', name: 'Raw Obsidian Leather', color: '#070707', type: 'fabric', sampleName: 'LT-OBSD', src: '/images/facade.png' }
   ],
   hardware: [
-    { id: 'pres-h1', name: 'Forged Gold Button', src: '/src/assets/images/gold_button_1779672922885.png', type: 'hardware' },
+    { id: 'pres-h1', name: 'Forged Gold Button', src: '/images/button.png', type: 'hardware' },
     { id: 'pres-h2', name: 'Fine Gold Zipper slider', src: '⛓️', type: 'hardware' },
     { id: 'pres-h3', name: 'Satin Brass Clasp', src: '🔒', type: 'hardware' },
-    { id: 'pres-h4', name: 'Atelier Scissors', src: '/src/assets/images/tailor_blueprint_1779670914398.png', type: 'hardware' },
+    { id: 'pres-h4', name: 'Atelier Scissors', src: '/images/blueprint.png', type: 'hardware' },
     { id: 'pres-h5', name: 'Golden Measuring Guide', src: '📏', type: 'hardware' }
   ],
   silhouettes: [
-    { id: 'pres-s1', name: 'A-Line Column Silhouette', src: '/src/assets/images/couture_sketch_1779670879126.png', type: 'silhouette' },
-    { id: 'pres-s2', name: 'Structured Peak Lapel Jacket', src: '/src/assets/images/couture_jacket_sketch_1779672940265.png', type: 'silhouette' },
-    { id: 'pres-s3', name: 'Atmospheric Workroom View', src: '/src/assets/images/atelier_drape_1779672155343.png', type: 'silhouette' },
-    { id: 'pres-s4', name: 'Leather bound Journal Drawing', src: '/src/assets/images/atelier_journal_1779672173380.png', type: 'silhouette' }
+    { id: 'pres-s1', name: 'A-Line Column Silhouette', src: '/images/sketch.png', type: 'silhouette' },
+    { id: 'pres-s2', name: 'Structured Peak Lapel Jacket', src: '/images/jacket.png', type: 'silhouette' },
+    { id: 'pres-s3', name: 'Atmospheric Workroom View', src: '/images/cabinet.png', type: 'silhouette' },
+    { id: 'pres-s4', name: 'Leather bound Journal Drawing', src: '/images/journal.png', type: 'silhouette' }
   ]
 };
