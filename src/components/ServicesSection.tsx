@@ -245,7 +245,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=85"
+                  src="/src/assets/images/services_suit_1.jpg"
                   alt="Anatomical drafting lines"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -267,7 +267,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=85"
+                  src="/src/assets/images/services_fitting_1.jpg"
                   alt="Material detailing"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -286,10 +286,10 @@ export default function ServicesSection() {
             </div>
 
             {/* Atelier Detail 3: Helical Internal Support */}
-            <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
+            <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-350 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=85"
+                  src="/src/assets/images/dress_design_1.jpg"
                   alt="Mannequin internal support"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"

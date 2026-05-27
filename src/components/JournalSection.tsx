@@ -27,7 +27,7 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
     date: 'MAY 18, 2026',
     readTime: '6 MIN READ',
     caption: 'How we balance the sheer tension of liquid fabric on bespoke wire frameworks without compromising on human breathing rhythm.',
-    illustrationSeed: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80',
+    illustrationSeed: '/src/assets/images/journal_drape_detail.jpg',
     content: [
       "In high fashion, gravity is not an obstacle—it is our primary design partner. The behavior of raw double-faced duchesse silk varies wildly based on ambient room humidity and yarn elasticity. When we drap silk over dynamic bust structures, the angle of the bias grain dictates how the material absorbs light.",
       "At Atelier Noir & Or, we practice 'gravity-mapping.' Our tailors drape whole panels of dark velvet on pre-configured models for 48 hours in a controlled environment. Only once the warp fibers stretch to their organic threshold do we introduce gold-bullion stitching.",
@@ -42,7 +42,7 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
     date: 'APR 02, 2026',
     readTime: '8 MIN READ',
     caption: 'A deep analysis into hand-drawn gold thread loops and basted stitches preserved from 17th-century garments.',
-    illustrationSeed: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+    illustrationSeed: '/src/assets/images/journal_fabric_weave.jpg',
     content: [
       "Not all gold glows with equal restraint. Modern metallic embroidery contains synthetic laminates that lack depth and turn dull under warm evening chandelier light. Atelier Noir & Or sources exclusive hand-drawn 18k gold coil wire directly from specialized artisans in Lyon.",
       "This process involves drawing solid gold alloy through microscopic steel dies until reaching a diameter finer than a strand of hair. It is then wrapped spirally around a central silk core. This prevents oxidization and imparts a warm, dim champagne brilliance.",
@@ -57,7 +57,7 @@ const JOURNAL_ENTRIES: JournalEntry[] = [
     date: 'MAR 14, 2026',
     readTime: '5 MIN READ',
     caption: 'Why the classic asymmetrical peak lapel remains the absolute high fashion pinnacle of modern tailoring.',
-    illustrationSeed: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80',
+    illustrationSeed: '/src/assets/images/services_suit_1.jpg',
     content: [
       "A tailored jacket is a set of geometric values. If the shoulder pitch is misaligned by even 2 millimeters, the fabric buckle creates a diagonal shadow across the chest, fracturing the silhouette's vertical integrity.",
       "We design our signature jackets of structured obsidian wool-crepe using floating horsehair canvases. By using dynamic horsehair padding instead of synthetic glues, the tailoring learns the body shape over time, responding naturally to individual temperature fluctuations.",
@@ -282,7 +282,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="https://cdn.phototourl.com/free/2026-05-27-3973afc1-67cc-4d37-aa0a-2d5cbd250e92.jpg"
+                src="/src/assets/images/exhibition_model_dim.jpg"
                 alt="Aesthetic ready-to-wear model dress drape in warm dim light"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -304,7 +304,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=85"
+                src="/src/assets/images/journal_drape_detail.jpg"
                 alt="Detailed textile fiber structures"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -326,7 +326,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=85"
+                src="/src/assets/images/exhibition_twilight_vibe.jpg"
                 alt="Twilight studio atmosphere"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"

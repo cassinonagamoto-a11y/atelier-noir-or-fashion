@@ -10,7 +10,7 @@ export const LOOKBOOK_COLLECTION: LookbookItem[] = [
     id: 'lb-1',
     title: 'L’Ombre Silencieuse',
     subtitle: 'Collection No. I — Look 04',
-    imageUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=85',
+    imageUrl: '/src/assets/images/services_fitting_1.jpg',
     tag: 'HAUTE COUTURE',
     colSpan: 'md:col-span-8',
     description: 'A sculptural coat-dress of 【Haute Couture】 caliber, masterfully hand-basted in our exclusive 【Double-Spun Wool-Crepe】. Towering right-angle shoulders balance the architectural 【Hourglass Silhouette】, while internal helical 【Corset Armatures】 bestow an absolute, uncompromising 【Sculptured Structure】. Completed with rare, hand-finished 【Cold-Forged Gold Buttons】 and hand-sewn buttonholes in pure silk thread, showcasing pristine 【Structural Tailoring】.'
@@ -19,7 +19,7 @@ export const LOOKBOOK_COLLECTION: LookbookItem[] = [
     id: 'lb-2',
     title: 'La Graine d’Or',
     subtitle: 'Collection No. I — Look 12',
-    imageUrl: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85',
+    imageUrl: '/src/assets/images/designer_collection_1.jpg',
     tag: 'SOIRÉE BESPOKE',
     colSpan: 'md:col-span-4',
     description: 'A high-tension 【Bespoke Evening Gown】 featuring an asymmetric column profile in liquid-light 【Double-Satin Silk】. Adorning the spine is a magnificent, 120-hour 【Hand-Sewn Embroidery】 pattern of cascading wheat laurels, where 【Gilded Filigree Thread】 and rich 【Champagne Satin】 merge. The side hem is sculpted three-dimensionally, capturing elegant kinetic movement via fluid 【Three-Dimensional Draping】.'
@@ -28,7 +28,7 @@ export const LOOKBOOK_COLLECTION: LookbookItem[] = [
     id: 'lb-3',
     title: 'Le Minimalisme Linéaire',
     subtitle: 'Atelier Workwear Series',
-    imageUrl: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=85',
+    imageUrl: '/src/assets/images/designer_collection_2.jpg',
     tag: 'PRÊT-À-PORTER',
     colSpan: 'md:col-span-4',
     description: 'An avant-garde asymmetrical double-breasted tuxedo set. Crafted in high-gauge 【Double-Spun Wool-Crepe】 for a crisp, armored drape. The sharp peak lapels are dynamically paneled with precious 【Champagne Satin】, basted using traditional French hand-pad techniques. Its meticulous 【Structural Tailoring】 yields smooth, contoured shoulder-sleeve connections that speak of quiet, cold luxury.'
@@ -37,7 +37,7 @@ export const LOOKBOOK_COLLECTION: LookbookItem[] = [
     id: 'lb-4',
     title: 'Les Vagues de Soie',
     subtitle: 'Textile Study No. 09',
-    imageUrl: 'https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&w=1200&q=85',
+    imageUrl: '/src/assets/images/designer_collection_3.jpg',
     tag: 'MATÉRIELS D’ATELIER',
     colSpan: 'md:col-span-8',
     description: 'A masterful study of fabric behavior: an bias-cut draped skirt combining heavy 【Double-Satin Silk】 and direct-to-mannequin draping. By harnessing physical gravity, it creates a breathtakingly fluid 【Luminous Drape】. Micro-pleats are pinned directly by hand through 【Three-Dimensional Draping】 to shimmer with subtle 【Gilded Filigree Thread】 undertones as they catch movement, acting as a wearable liquid sculpture.'
