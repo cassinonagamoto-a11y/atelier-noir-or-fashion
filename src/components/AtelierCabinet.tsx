@@ -101,7 +101,7 @@ export default function AtelierCabinet({
       {/* Decorative Cabinet Exhibition Banner */}
       <div className="relative border border-zinc-900 bg-black overflow-hidden h-[180px] md:h-[240px]">
         <img
-          src="/src/assets/images/boutique_cabinet_1779670935525.png"
+          src="/images/cabinet.png"
           alt="Luxury glass display cabinet with curate high fashion decanters and tools"
           className="w-full h-full object-cover grayscale opacity-55 hover:grayscale-0 hover:opacity-100 transition-all duration-1000"
           referrerPolicy="no-referrer"
