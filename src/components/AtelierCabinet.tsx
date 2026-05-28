@@ -86,7 +86,7 @@ export default function AtelierCabinet({
           </div>
         </div>
         
-        <div className="border border-zinc-900 bg-black/40 p-3 flex flex-col justify-center font-mono text-[10px] space-y-1 uppercase tracking-widest text-zinc-400">
+        <div className="min-w-[340px] border border-zinc-900 bg-black/40 p-3 flex flex-col justify-center font-mono text-[10px] space-y-1 uppercase tracking-widest text-zinc-400">
           <div className="flex justify-between space-x-8">
             <span>SAVED CONCEPTS:</span>
             <strong className="text-white">{savedConcepts.length}</strong>
