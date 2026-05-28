@@ -267,7 +267,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="/images/look1.jpg"
+                  src="/images/Look1.jpg"
                   alt="Material detailing"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
