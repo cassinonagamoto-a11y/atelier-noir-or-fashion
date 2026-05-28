@@ -118,7 +118,7 @@ export default function AtelierCabinet({
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         
         {/* Left pane: Saved Moodboards & Briefings */}
-        <div className="space-y-6">
+        <div className="space-y-6"> 
           <div className="border-b border-zinc-900 pb-3 flex justify-between items-end">
             <span className="font-serif text-lg font-light">My Portfolio Schematics</span>
             <span className="font-mono text-[9px] text-zinc-500 uppercase">CONCEPT SHEETS</span>
@@ -188,7 +188,7 @@ export default function AtelierCabinet({
         </div>
 
         {/* Right pane: Upcoming Sizing Bookings */}
-        <div className="space-y-6">
+        <div className="min-w-[420px] space-y-6"> 
           <div className="border-b border-zinc-900 pb-3 flex justify-between items-end">
             <span className="font-serif text-lg font-light">Salon Consultation Passes</span>
             <span className="font-mono text-[9px] text-zinc-500 uppercase">FITTING TETS</span>
