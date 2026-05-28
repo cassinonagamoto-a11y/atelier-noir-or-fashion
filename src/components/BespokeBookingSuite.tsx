@@ -293,7 +293,7 @@ export default function BespokeBookingSuite({
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent pointer-events-none z-10" />
 
               <img
-                src="/src/assets/images/atelier_drape_1779672155343.png"
+                src="/images/look9.jpg"
                 alt="Active draping calibration workspace"
                 className={`w-full h-full object-cover transition-all duration-1000 ${
                   mediaMood === 'noir' ? 'grayscale contrast-125 opacity-70' :
@@ -463,7 +463,7 @@ export default function BespokeBookingSuite({
               {/* Decorative flatlay banner */}
               <div className="relative border border-zinc-950 overflow-hidden h-28 bg-black">
                 <img
-                  src="/src/assets/images/tailor_blueprint_1779670914398.png"
+                  src="/images/blueprint.png"
                   alt="Tailoring design blueprint and vintage scissors toolset"
                   className="w-full h-full object-cover grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-700"
                   referrerPolicy="no-referrer"
