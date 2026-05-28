@@ -145,7 +145,7 @@ export default function App() {
           </ParallaxWrapper>
 
           {/* Luxury Tab Navigation list */}
-          <nav className="flex flex-wrap justify-center gap-1 font-mono text-xs text-zinc-400">
+          <nav className="grid grid-cols-2 md:grid-cols-4 gap-2 justify-center font-mono text-xs text-zinc-400"> 
             <button
               id="tab-lookbook"
               onClick={() => setActiveTab('lookbook')}
