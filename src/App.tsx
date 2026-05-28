@@ -62,7 +62,14 @@ export default function App() {
   });
 
   const [savedConcepts, setSavedConcepts] = useState<SavedConcept[]>([]);
-  const [savedBookings, setSavedBookings] = useState<BespokeBooking[]>([]);
+  const [savedBookings, setSavedBookings] = useState<BespokeBooking[]>([
+  {
+    id: "1",
+    title: "Private Couture Fitting",
+    date: "June 12, 2026",
+    time: "15:00"
+  }
+]);
 
   // Persistent browser memory loading of local couture portfolio
   useEffect(() => {
