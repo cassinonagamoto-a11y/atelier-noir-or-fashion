@@ -415,7 +415,7 @@ export default function BespokeConsultant({ measurements, onSaveConcept }: Bespo
                       <div className="absolute top-2 left-2 text-[7px] font-mono text-gold-500 tracking-[0.2em] uppercase">SCHEMA // REF-010</div>
                       <div className="overflow-hidden aspect-[4/5] border border-zinc-950">
                         <img
-                          src="/src/assets/images/couture_sketch_1779670879126.png"
+                          src="/images/sketch.png"
                           alt="Bespoke Couture Sketch Design Pattern"
                           className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-700"
                           referrerPolicy="no-referrer"
