@@ -110,7 +110,7 @@ export default function ServicesSection() {
           <div className="lg:col-span-5 relative group border border-zinc-900 bg-black p-2.5 overflow-hidden atelier-reflect">
             <div className="aspect-[4/3] w-full overflow-hidden bg-zinc-950 relative">
               <img
-                src="/src/assets/images/atelier_drape_1779672155343.png"
+                src="/images/look9.jpg"
                 alt="Artisan couture designer hand-draping dark satin silk over a master mannequin"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -245,7 +245,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="/images/blueprint.png"
+                  src="/images/look8.jpg"
                   alt="Anatomical drafting lines"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -267,7 +267,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-300 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="/images/look9.jpg"
+                  src="/images/look1.jpg"
                   alt="Material detailing"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -289,7 +289,7 @@ export default function ServicesSection() {
             <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/20 transition-all duration-350 luxury-gold-glow">
               <div className="aspect-[16/10] w-full bg-black overflow-hidden relative border border-zinc-900">
                 <img
-                  src="/images/facade.png"
+                  src="/images/look7.jpg"
                   alt="Mannequin internal support"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
