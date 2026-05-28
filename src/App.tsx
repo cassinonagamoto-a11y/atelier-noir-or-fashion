@@ -61,15 +61,19 @@ export default function App() {
     inseam: 79
   });
 
-  const [savedConcepts, setSavedConcepts] = useState<SavedConcept[]>([]);
-  const [savedBookings, setSavedBookings] = useState<BespokeBooking[]>([
-  {
-    id: "1",
-    title: "Private Couture Fitting",
-    date: "June 12, 2026",
-    time: "15:00"
-  }
-]);
+  const [savedConcepts, setSavedConcepts] = useState<SavedConcept[]>([{
+  id: "1",
+  title: "Haute Couture Evening Gown",
+  date: "2002-02-02",
+  time: "Paris at 11:30 – Paris"
+}]);
+
+const [savedBookings, setSavedBookings] = useState<BespokeBooking[]>([{
+  id: "2",
+  title: "Private Couture Fitting",
+  date: "2002-02-02",
+  time: "Paris at 11:30 – Paris"
+}]);
 
   // Persistent browser memory loading of local couture portfolio
   useEffect(() => {
