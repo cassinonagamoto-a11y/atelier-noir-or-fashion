@@ -282,7 +282,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/images/look12.jpg"
+                src="/images/look5.jpg"
                 alt="Aesthetic ready-to-wear model dress drape in warm dim light"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -304,7 +304,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/images/look14.jpg"
+                src="/images/look12.jpg"
                 alt="Detailed textile fiber structures"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -326,7 +326,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/images/look8.jpg"
+                src="/images/look13.jpg"
                 alt="Twilight studio atmosphere"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
