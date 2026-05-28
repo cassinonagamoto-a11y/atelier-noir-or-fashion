@@ -81,7 +81,7 @@ export default function ContactSection() {
       {/* Hero Storefront Banner */}
       <div className="relative border border-zinc-900 bg-black overflow-hidden h-[180px] md:h-[260px] flex items-end p-6 md:p-10 group">
         <img
-          src="/src/assets/images/atelier_facade_1779672135692.png"
+          src="/images/facade.png"
           alt="Sleek black granite luxury fashion atelier boutique storefront glowing with soft gold light"
           className="absolute inset-0 w-full h-full object-cover grayscale opacity-45 group-hover:grayscale-0 group-hover:opacity-85 transition-all duration-1000"
           referrerPolicy="no-referrer"
