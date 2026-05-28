@@ -365,7 +365,7 @@ export default function InteractiveMoodboard({ onSaveConcept }: InteractiveMoodb
               {/* Central Model Figure Reference Underlay */}
               <div className="absolute inset-0 pointer-events-auto overflow-hidden select-none bg-zinc-950/20 img-wrap z-0">
                 <img
-                  src="/src/assets/images/regenerated_image_1779677434414.jpg"
+                  src="/images/look15.jpg"
                   alt="Atelier Study Model Reference Frame"
                   referrerPolicy="no-referrer"
                   style={{ height: '1035.5px', paddingBottom: '-2px', marginLeft: '-2px', marginTop: '10px' }}
@@ -543,7 +543,7 @@ export default function InteractiveMoodboard({ onSaveConcept }: InteractiveMoodb
           {/* Inspiration Card 1: Couture Sketch */}
           <div className="relative border border-zinc-900 bg-zinc-950 overflow-hidden group flex flex-col justify-end p-3 shadow-lg hover:border-zinc-700 transition-all duration-300">
             <img
-              src="/src/assets/images/couture_sketch_1779670879126.png"
+              src="/images/sketch.png"
               alt="Couture Outline Sketch"
               className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -561,7 +561,7 @@ export default function InteractiveMoodboard({ onSaveConcept }: InteractiveMoodb
           {/* Inspiration Card 2: Champagne satin gold silk */}
           <div className="relative border border-zinc-900 bg-zinc-950 overflow-hidden group flex flex-col justify-end p-3 shadow-lg hover:border-zinc-700 transition-all duration-300">
             <img
-              src="/src/assets/images/champagne_satin_1779672903615.png"
+              src="/images/satin.png"
               alt="Champagne Satin Fabric Detail"
               className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -579,7 +579,7 @@ export default function InteractiveMoodboard({ onSaveConcept }: InteractiveMoodb
           {/* Inspiration Card 3: Structured Jacket peak lapel couture sketch */}
           <div className="relative border border-zinc-900 bg-zinc-950 overflow-hidden group flex flex-col justify-end p-3 shadow-lg hover:border-zinc-700 transition-all duration-300">
             <img
-              src="/src/assets/images/couture_jacket_sketch_1779672940265.png"
+              src="/images/jacket.png"
               alt="Structured Jacket Peak Lapel"
               className="absolute inset-0 w-full h-full object-cover grayscale opacity-65 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -597,7 +597,7 @@ export default function InteractiveMoodboard({ onSaveConcept }: InteractiveMoodb
           {/* Inspiration Card 4: Curated bespoke forged gold button */}
           <div className="relative border border-zinc-900 bg-zinc-950 overflow-hidden group flex flex-col justify-end p-3 shadow-lg hover:border-zinc-700 transition-all duration-300">
             <img
-              src="/src/assets/images/gold_button_1779672922885.png"
+              src="/images/button.png"
               alt="Forged Gold Designer Button"
               className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
               referrerPolicy="no-referrer"
