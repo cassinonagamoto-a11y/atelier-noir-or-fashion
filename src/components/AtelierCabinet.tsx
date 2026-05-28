@@ -265,7 +265,7 @@ export default function AtelierCabinet({
           <div className="border border-zinc-900/60 bg-black/50 p-4 space-y-3 group hover:border-zinc-700 transition-all">
             <div className="relative h-44 overflow-hidden border border-zinc-950 bg-black">
               <img
-                src="/src/assets/images/tailor_blueprint_1779670914398.png"
+                src="/images/blueprint.png"
                 alt="Original 1924 Drapery Shears"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -285,7 +285,7 @@ export default function AtelierCabinet({
           <div className="border border-zinc-900/60 bg-black/50 p-4 space-y-3 group hover:border-zinc-700 transition-all">
             <div className="relative h-44 overflow-hidden border border-zinc-950 bg-black">
               <img
-                src="/src/assets/images/boutique_cabinet_1779670935525.png"
+                src="/images/cabinet.png"
                 alt="Curated Weaves Study"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -305,7 +305,7 @@ export default function AtelierCabinet({
           <div className="border border-zinc-900/60 bg-black/50 p-4 space-y-3 group hover:border-zinc-700 transition-all">
             <div className="relative h-44 overflow-hidden border border-zinc-950 bg-black">
               <img
-                src="/src/assets/images/couture_sketch_1779670879126.png"
+                src="/images/sketch.png"
                 alt="L'Art de l'Épure Sketches"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 referrerPolicy="no-referrer"
