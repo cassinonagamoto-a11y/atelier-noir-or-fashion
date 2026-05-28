@@ -142,7 +142,7 @@ export default function JournalSection() {
         <div className="lg:col-span-5 relative group border border-zinc-900 bg-black p-2.5 overflow-hidden">
           <div className="aspect-[4/5] w-full overflow-hidden bg-zinc-950">
             <img
-              src="/src/assets/images/atelier_journal_1779672173380.png"
+              src="/images/look10.jpg"
               alt="Leather bound designer journal with golden hand sketches on black stone"
               className="w-full h-full object-cover grayscale opacity-75 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000"
               referrerPolicy="no-referrer"
@@ -282,7 +282,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/src/assets/images/exhibition_model_dim.jpg"
+                src="/images/look12.jpg"
                 alt="Aesthetic ready-to-wear model dress drape in warm dim light"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -304,7 +304,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/src/assets/images/journal_drape_detail.jpg"
+                src="/images/look14.jpg"
                 alt="Detailed textile fiber structures"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
@@ -326,7 +326,7 @@ export default function JournalSection() {
           <div className="border border-zinc-900 bg-zinc-950/20 p-5 space-y-4 group hover:border-gold-500/25 transition-all duration-300 luxury-gold-glow">
             <div className="aspect-[4/3] w-full bg-black overflow-hidden relative border border-zinc-900">
               <img
-                src="/src/assets/images/exhibition_twilight_vibe.jpg"
+                src="/images/look8.jpg"
                 alt="Twilight studio atmosphere"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
